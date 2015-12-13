@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.xiaoliwu.yll.activity.Home_Acivity.Search_Activity">
+
+    <RelativeLayout
+        android:id="@+id/home_relativeLayout"
+        android:background="#F84E4E"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+        <TextView
+            android:id="@+id/tv_sv_search"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="搜索详情"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/iv_search_two"
+            android:src="@mipmap/ic_action_back"
+            android:layout_alignTop="@+id/tv_sv_search"
+            android:layout_marginLeft="20dp"
+            />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/iv_search_three"
+            android:src="@mipmap/ic_menu_sort"
+            android:layout_alignTop="@+id/tv_sv_search"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+</RelativeLayout>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/ac_tab_layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="#F00"
+        android:layout_below="@+id/home_relativeLayout"
+        android:fillViewport="false">
+    </android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ac_tab_vp_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_below="@+id/ac_tab_layout_search"/>
+</RelativeLayout>

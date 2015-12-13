@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaoliwu.yll.activity.TouGaoActivity">
+    <RelativeLayout
+
+        android:id="@+id/hot_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#F84E4E">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="我要投稿"
+            android:textColor="#FFFAFA"
+            android:textSize="20sp" />
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/bbbb"
+
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_below="@+id/hot_relativeLayout"
+        android:id="@+id/atTextView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/atTextView"
+        android:autoLink="email"
+        android:text="灰常感谢亲爱的前来投稿，
+        请将稿件内容发送至 tougao@liwushuo.com 吧。让我们一起把更多有趣礼物带给大家，么么哒，爱你哦 ⺻▽⺻~"
+
+        />
+    <TextView
+        android:layout_below="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#000000" />
+
+</RelativeLayout>

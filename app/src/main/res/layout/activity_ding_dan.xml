@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F84E4E"
+    tools:context="com.xiaoliwu.yll.activity.DingDanActivity">
+
+    <!--<RelativeLayout-->
+
+        <!--android:id="@+id/hot_relativeLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="65dp"-->
+        <!--android:background="#F84E4E">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:text="我"-->
+            <!--android:textColor="#FFFAFA"-->
+            <!--android:textSize="20sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:text="更多"-->
+            <!--android:textColor="#FFF"-->
+            <!--android:textSize="20sp" />-->
+    <!--</RelativeLayout>-->
+    <!--&lt;!&ndash;<ScrollView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent">&ndash;&gt;-->
+    <WebView
+        android:id="@+id/web2"
+        android:background="#F84E4E"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </WebView>
+    <!--</ScrollView>-->
+
+
+</RelativeLayout>

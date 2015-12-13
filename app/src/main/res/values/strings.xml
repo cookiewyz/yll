@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">小礼物</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+        <!--MainActivity-->
+    <string name="home_home">首页</string>
+    <string name="home_hot">热门</string>
+    <string name="home_classify">分类</string>
+    <string name="home_profile">我</string>
+    <string name="title_activity_hot__commodity_detail">Hot_CommodityDetailActivity</string>
+    <string name="title_activity_commodity_detail__buy">CommodityDetail_BuyActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+	<string name="title_activity_gengduo">更多</string>
+    <string name="title_activity_denglu">Denglu</string>
+    <string name="title_activity_zhuce">Zhuce</string>
+    <string name="title_activity_fankui">FankuiActivity</string>
+    <string name="title_activity_tou_gao">TouGaoActivity</string>
+    <string name="title_activity_shen_fen">ShenFenActivity</string>
+    <string name="title_activity_guan_yu">GuanYuActivity</string>
+    <string name="title_activity_ji_fen">JiFenActivity</string>
+    <string name="title_activity_li_juan">LiJuanActivity</string>
+    <string name="title_activity_ding_dan">DingDanActivity</string>
+    <string name="title_activity_tao_bao_ding_dan">TaoBaoDingDanActivity</string>
+    <string name="title_activity_xiao_xi">XiaoXiActivity</string>
+    <string name="title_activity_xing_bie">XingBieActivity</string>
+    <string name="title_activity_zhi_ye">ZhiYeActivity</string>
+    <string name="title_activity_zhu_ce">ZhuCeActivity</string>
+    <string name="title_activity_my_zi_liao">MyZiLiaoActivity</string>
+    <string name="title_activity_ge_ren">GeRenActivity</string>
+    <string name="title_activity_sign_">Sign_Activity</string>
+    <string name="title_activity_search__is">Search_Is</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_strategy_fragment">strategy_fragment</string>
+    <string name="title_activity_set">Set</string>
+    <string name="title_activity_tupian">tupian</string>
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+    <string name="prompt">将二维码放入框内，即可自动扫描</string>
+    <string name="title_activity_shao">Shao</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="time_error">时间有问题</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="title_activity_classify__headone">Classify_HeadoneActivity</string>
+</resources>

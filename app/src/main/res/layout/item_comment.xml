@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingEnd="16dp"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="33dp"
+    android:id="@+id/iv_user"
+    android:layout_marginTop="20dp"
+    />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="44dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_user"
+            android:textSize="15dp"
+            android:text="12367"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/iv_user"
+            android:layout_toEndOf="@+id/iv_user" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_time_zhiqian"
+        android:text="3天之前"
+        android:layout_alignBottom="@+id/tv_user"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_marginLeft="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_comment"
+        android:layout_toRightOf="@+id/iv_user"
+        android:layout_marginTop="60dp"
+        android:text="很好的东东"
+        android:textSize="15dp"/>
+</RelativeLayout>

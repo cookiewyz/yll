@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaoliwu.yll.activity.JiFenActivity">
+    <RelativeLayout
+        android:id="@+id/jifen"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#F84E4E">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="积分"
+            android:textColor="#FFFAFA"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/tv1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/bbbb"
+            android:layout_alignParentLeft="true"
+
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/jifen"
+        android:layout_width="wrap_content"
+        android:textSize="40dp"
+        android:textColor="#662bff"
+        android:layout_height="wrap_content"
+        android:text="暂时未开启积分" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaoliwu.yll.activity.Home_Acivity.Sign_Activity">
+    <RelativeLayout
+        android:id="@+id/hot_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#F84E4E">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/iv_fanhui"
+            android:src="@mipmap/ic_action_back"
+            android:layout_alignBottom="@+id/tv_happy"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="签到领取积分"
+            android:id="@+id/tv_happy"
+            android:textColor="#FFFAFA"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/hot_relativeLayout"
+        android:id="@+id/wv"></WebView>
+</RelativeLayout>

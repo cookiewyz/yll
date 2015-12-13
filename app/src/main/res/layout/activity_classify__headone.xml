@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaoliwu.yll.activity.Classify_HeadoneActivity">
+
+    <RelativeLayout
+        android:id="@+id/classify_head_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#F84E4E">
+
+        <ImageView
+            android:id="@+id/classify_head_action_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/classify_head_textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/ic_action_back" />
+
+        <TextView
+            android:id="@+id/classify_head_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFAFA"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <com.xiaoliwu.yll.utils.RefreshableView
+        android:layout_marginTop="5dp"
+        android:id="@+id/classify_head_refreshableview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/classify_head_relativeLayout">
+
+        <ListView
+            android:id="@+id/classify_head_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </com.xiaoliwu.yll.utils.RefreshableView>
+
+</RelativeLayout>

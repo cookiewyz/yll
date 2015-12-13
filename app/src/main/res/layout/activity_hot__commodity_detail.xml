@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaoliwu.yll.activity.Hot_CommodityDetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/hotCommodity_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#F84E4E">
+
+        <ImageView
+            android:id="@+id/commodityDetail_action_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/ic_action_back" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="商品详情"
+            android:textColor="#FFFAFA"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/commodityDetail_menu_share"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_menu_share" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/Hot_CommodityDetailActivity_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/hotCommodity_relativeLayout"></FrameLayout>
+</RelativeLayout>

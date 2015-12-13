@@ -1,0 +1,142 @@
+<resources>
+  <color name="red_ff">#FF0000</color>
+  <color name="grey">#7F7F7F</color>
+  <color name="grey_545454">#545454</color>
+  <color name="grey_6c6c6c">#6c6c6c</color>
+  <color name="grey_cccccc">#CCCCCC</color>
+  <color name="grey_666666">#666666</color>
+  <color name="grey_f3f3f3">#F3F3F3</color>
+  <color name="grey_f7f7f7">#F7F7F7</color>
+  <color name="grey_e8e8e8">#E8E8E8</color>
+  <color name="grey_8e8e8e">#8e8e8e</color>
+  <color name="grey_8f8f8f">#8f8f8f</color>
+  <color name="grey_999999">#999999</color>
+  <color name="grey_333333">#333333</color>
+  <color name="grey_b2b2b2">#b2b2b2</color>
+  <color name="grey_ededed">#ededed</color>
+  <color name="grey_aaaaaa">#aaaaaa</color>
+  <color name="grey_dddddd">#dddddd</color>
+  <color name="grey_60000000">#60000000</color>
+  <color name="orange_ff8d1f">#ff8d1f</color>
+  <color name="viewfinder_border">#ff09BB07</color>
+  <color name="blue_356fc4">#356FC4</color>
+  <color name="blue_84A2C4">#84A2C4</color>
+  <color name="cyan_8e910d">#8E910D</color>
+  <color name="cyan_86890c">#86890c</color>
+  <color name="cyan_f0f3e3">#f0f3e3</color>
+  <color name="divider_color">#C8C7CC</color>
+
+  <color name="grey1">#999999</color>
+  <color name="grey2">#F3F3F3</color>
+  <color name="gray_6c6c6c">#6c6c6c</color>
+  <color name="red_d90000">#D90000</color>
+
+  <color name="grey3">#666666</color>
+  <color name="green1">#85880C</color>
+  <color name="green_346EC4">#346EC4</color>
+
+  <color name="line">#C8C7CC</color>
+
+  <color name="transparent_22">#22000000</color>
+  <color name="transparent_33">#33000000</color>
+  <color name="transparent_55">#55000000</color>
+  <color name="transparent_green_55">#5500ff00</color>
+  <color name="transparent_blue_55">#550000ff</color>
+  <color name="transparent_dd">#dd000000</color>
+  <color name="transparent_orange">#78ff6600</color>
+
+  <color name="yellow_dcdc17">#DCDC17</color>
+  <color name="yellow_ff8000">#ff8000</color>
+
+  <color name="car_info_a">#97C43C</color>
+  <color name="car_info_b">#4EA4C9</color>
+  <color name="car_info_c">#C49E5F</color>
+  <color name="car_info_d">#B3A679</color>
+  <color name="bg">#f3f3f3</color>
+  <color name="bar_bg">#e6e3e3</color>
+  <color name="green_86890c">#86890c</color>
+
+  <color name="radio_btn_checked">#898d0d</color>
+  <color name="radio_btn_unchecked">#ffffff</color>
+  <color name="bottom_bar_bg">#242424</color>
+  <color name="grey_525252">#525252</color>
+  <color name="grey_bcb6b6">#bcb6b6</color>
+  <color name="grey_f4f4f3">#f4f4f3</color>
+  <color name="blue_157efc">#157efc</color>
+
+  <color name="online_icon_label">#55a251b7</color>
+  <color name="realtime_icon_label">#5500bfc9</color>
+  <color name="usedcar_icon_label">#55d90000</color>
+  <color name="newcar_icon_label">#55ff6600</color>
+  <color name="grey_9e998e">#9e998e</color>
+  <color name="grey_44ADB48B">#44ADB48B</color>
+
+  <color name="car_model_checked">#b9c778</color>
+  <color name="car_model_unchecked">#767676</color>
+  <color name="car_store_auction_rect">#aebe65</color>
+  <color name="car_displacement_checked">#ffffff</color>
+  <color name="car_displacement_unchecked">#9e998e</color>
+  <color name="orange_ff8259">#ff8259</color>
+  <color name="orange_6f6f6f">#6f6f6f</color>
+  <color name="grey_eeeeee">#eeeeee</color>
+  <color name="orange_ff6633">#ff6633</color>
+  <color name="grey_9a9a9a">#9a9a9a</color>
+  <color name="grey_888888">#888888</color>
+  <color name="gery_e3e3e3">#e3e3e3</color>
+  <color name="grey_e6e6e6">#e6e6e6</color>
+  <color name="red_ce231d">#ce231d</color>
+
+
+  <color name="t_driver_blue">#33B5E5</color>
+  <color name="t_driver_purple">#FD3CFD</color>
+
+  <!--wheel view -->
+  <color name="province_line_border">#D0D0D0</color>
+  <color name="green_09bb07">#09bb07</color>
+
+
+
+  <color name="contents_text">#ff000000</color>
+  <color name="encode_view">#ffffffff</color>
+  <color name="help_button_view">#ffcccccc</color>
+  <color name="help_view">#ff404040</color>
+  <color name="possible_result_points">#c0ffff00</color>  
+  <color name="result_image_border">#ffffffff</color>
+  <color name="result_minor_text">#ffc0c0c0</color>
+  <color name="result_points">#c000ff00</color>
+  <color name="result_text">#ffffffff</color>
+  <color name="result_view">#b0000000</color>
+  <color name="sbc_header_text">#ff808080</color>
+  <color name="sbc_header_view">#ffffffff</color>
+  <color name="sbc_list_item">#fffff0e0</color>
+  <color name="sbc_layout_view">#ffffffff</color>
+  <color name="sbc_page_number_text">#ff000000</color>
+  <color name="sbc_snippet_text">#ff4b4b4b</color>
+  <color name="share_text">#ff000000</color>
+  <color name="share_view">#ffffffff</color>
+  <color name="status_view">#50000000</color>
+  <color name="status_text">#ffffffff</color>
+  <color name="transparent">#00000000</color>
+  <color name="viewfinder_frame">#ff000000</color>
+  <color name="viewfinder_laser">#ffff0000</color>
+  <color name="viewfinder_mask">#60000000</color>
+  <color name="red1">#f97272</color>
+  <color name="red">#FF0000</color>
+  <color name="orange">#FF7800</color>
+  <color name="yellow">#FFFF00</color>
+  <color name="grassgreen">#7fff00</color>
+  <color name="green">#00FF00</color>
+  <color name="freshgreen">#ff7f00</color>
+
+  <color name="Cyan">#00ffff</color>
+  <color name="brightblue">#007fff</color>
+  <color name="blue">#0000FF</color>
+  <color name="purple">#ff00ff</color>
+  <color name="Magenta">#7f00ff</color>
+  <color name="waterred">#ff007f</color>
+  <color name="black">#000001</color>
+  <color name="white">#FFFFFF</color>
+  <!--HomeActivity-->
+  <color name="tab_bg">#e62129</color>
+  e62129
+</resources>

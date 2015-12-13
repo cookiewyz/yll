@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <!--tab上方的显示区域-->
+    <FrameLayout
+        android:id="@+id/mHomeContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mHomeRadioGroup">
+
+    </FrameLayout>
+
+    <!--底下的四个tab-->
+    <RadioGroup
+        android:id="@+id/mHomeRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/dibu"  >
+
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/mHomeHomeRb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/home_home"
+            android:textColor="@drawable/selector_tab_text_color"
+            android:drawableTop="@drawable/bg_checkbox_menu1"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/mHomeHotRb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/home_hot"
+            android:textColor="@drawable/selector_tab_text_color"
+            android:drawableTop="@drawable/bg_checkbox_menu2"
+            />
+
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/mHomeClassifyRb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/home_classify"
+            android:textColor="@drawable/selector_tab_text_color"
+            android:drawableTop="@drawable/bg_checkbox_menu3"
+            />
+
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/mHomeProfileRb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/home_profile"
+            android:textColor="@drawable/selector_tab_text_color"
+
+            />
+    </RadioGroup>
+</RelativeLayout>

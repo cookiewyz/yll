@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+    android:id="@+id/hot_relativeLayout_details"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="#F84E4E">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/iv_fanhui_special_two"
+        android:src="@mipmap/ic_action_back"
+        android:layout_alignBottom="@+id/tv_happy"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="评论"
+        android:id="@+id/tv_happy"
+        android:textColor="#FFFAFA"
+        android:textSize="20sp" />
+</RelativeLayout>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_home_comment"
+        android:layout_below="@+id/hot_relativeLayout_details"
+        android:layout_marginBottom="35dp">
+    </ListView>
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/ll_home_comment_one"
+        android:layout_alignBottom="@+id/lv_home_comment"
+        android:layout_marginLeft="20dp"
+        android:background="#f9f6ff"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_home_comment"
+            android:layout_below="@+id/lv_home_comment"
+            android:hint="输入评论...."
+            android:background="@drawable/bead"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:background="#f9f6ff"
+            android:layout_height="wrap_content"
+            android:text="评论"
+            />-->
+   <!-- </LinearLayout>-->
+</RelativeLayout>

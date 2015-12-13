@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99d9d9d1"
+    tools:context="com.xiaoliwu.yll.activity.FankuiActivity">
+
+    <RelativeLayout
+        android:id="@+id/fankui"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#F84E4E">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="意见反馈"
+            android:textColor="#FFFAFA"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/tv1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/bbbb" />
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView6"
+            android:text="发送"
+            android:textColor="#FFFAFA"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_below="@+id/fankui"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:text="您的意见"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et1"
+        android:layout_below="@+id/textView"
+        android:hint="小礼物希望希望听到您的声音,欢迎您的支持和帮助.谢谢,木木哒"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_below="@+id/et1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:text="联系方式"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et2"
+        android:layout_below="@+id/textView2"
+        android:hint="联系方式,QQ,微信"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

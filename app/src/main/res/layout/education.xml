@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@mipmap/bg_user_select_type">
+    <RelativeLayout
+        android:layout_width="240dp"
+        android:layout_height="380dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="#FFFFFFFF">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择你的身份"
+            android:textSize="40px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tv_eduction"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/iv_back"
+            android:src="@mipmap/ic_old_backward"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_eduction"
+            android:background="#ff787783"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ll_eduction"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/rl_eductionone"
+            android:background="#ff8bff66"
+            android:layout_marginTop="25dp"
+
+            android:layout_below="@id/ll_eduction"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="初中生"
+                android:textColor="#fffbffff"
+                android:textSize="25dp"
+                android:layout_centerInParent="true"
+
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_old_next_green"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                />
+
+            </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:id="@+id/rl_eductiontwo"
+            android:background="#ffff9f99"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/rl_eductionone"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="高中生"
+                android:textColor="#fffbffff"
+                android:textSize="25dp"
+                android:layout_centerInParent="true"
+
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_old_next_red"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:id="@+id/rl_eductionthree"
+            android:background="#ffa19dff"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/rl_eductiontwo"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="大学生"
+                android:textColor="#fffbffff"
+                android:textSize="25dp"
+                android:layout_centerInParent="true"
+
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_old_next_purple"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/rl_eductionfour"
+            android:background="#ffff79b4"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/rl_eductionthree"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="职场新人"
+                android:textColor="#fffbffff"
+                android:textSize="25dp"
+                android:layout_centerInParent="true"
+
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_old_next_pink"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/rl_eductionfive"
+
+            android:background="#ffffd5a3"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/rl_eductionfour"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="资深工作党"
+                android:textColor="#fffbffff"
+                android:textSize="25dp"
+                android:layout_centerInParent="true"
+
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_old_next_brown"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

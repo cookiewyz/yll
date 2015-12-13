@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00f8f8fd">
+
+    <RelativeLayout
+        android:id="@+id/hot_item_relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/miaobian"
+        >
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/hot_item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/hot_item_relativeLayout1"
+        android:background="@drawable/miaobian1"
+        >
+
+        <TextView
+            android:id="@+id/hot_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+             />
+
+        <TextView
+            android:id="@+id/hot_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/hot_item_name"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/hot_item_name"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ff1215" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@mipmap/ic_small_heart_normal"
+            android:layout_alignBottom="@+id/hot_item_price"
+            android:layout_toLeftOf="@+id/hot_item_favorites_count"
+           />
+        <TextView
+            android:id="@+id/hot_item_favorites_count"
+            android:textSize="9sp"
+            android:layout_alignBottom="@+id/hot_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="56dp"  />
+    </RelativeLayout>
+
+
+</RelativeLayout>
