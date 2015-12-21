@@ -69,6 +69,10 @@ public class Special_Activity extends AppCompatActivity implements AbsListView.O
         }, 1);
         Data();
     }
+
+    /**
+     * 加载数据
+     */
     protected void Data() {
         HttpUtils httpUtils = new HttpUtils();
         httpUtils.send(HttpRequest.HttpMethod.GET, ServerUrl.HOME_SPECIAL + "offset=" + page + "&limit=20", new RequestCallBack<Object>() {
