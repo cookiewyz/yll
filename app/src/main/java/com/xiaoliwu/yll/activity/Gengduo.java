@@ -25,6 +25,9 @@ import com.xiaoliwu.yll.utils.SystemBarTintManager;
 import cn.sharesdk.framework.ShareSDK;
 import cn.sharesdk.onekeyshare.OnekeyShare;
 
+/**
+ * @author wyz
+ */
 public class Gengduo extends AppCompatActivity {
     //
     private TextView tx2, textView2, textView4;

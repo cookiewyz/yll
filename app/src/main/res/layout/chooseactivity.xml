@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:background="@mipmap/bg_user_select_type">
 
+
     <RelativeLayout
         android:layout_width="240dp"
         android:layout_height="380dp"
@@ -24,7 +25,7 @@
             android:id="@+id/ll_sex"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_below="@+id/tv_sex"
+            android:layout_below="@id/tv_sex"
             android:layout_marginTop="20dp"
             android:background="#ff787783">
 

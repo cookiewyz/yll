@@ -9,6 +9,10 @@ import android.widget.ImageView;
 import com.xiaoliwu.yll.R;
 import com.xiaoliwu.yll.fragment.EducationFragment;
 
+/**
+ * @author wyz
+ */
+
 public class ChooseActivity extends AppCompatActivity implements View.OnClickListener {
     private ImageView boy,girl;
     @Override

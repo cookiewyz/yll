@@ -28,6 +28,7 @@ public class XiaoXiActivity extends AppCompatActivity {
             }
         });
     }
+
     /**
      * 设置状态栏背景状态
      */
